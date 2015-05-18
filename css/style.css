@@ -1,33 +1,26 @@
-body{
-  font-family: 'Lato', sans-serif;
-  color: #747704;
-  font-weight: 300;
+body {
+    font-family: 'Lato', sans-serif;
+    color: #747704;
+    font-weight: 300;
 }
 
-.text-muted{
-  color: #BCBBBB;
-
+.text-muted {
+    color: #bcbbbb;
 }
 
-.text-thin{
-
-  font-weight: 100;
+.text-thin {
+    font-weight: 100;
 }
 
 .title-super {
-  font-size: 60px;
+    font-size: 60px;
 }
 
 .title-logo {
-
-  margin-top: 15px;
-
+    margin-top: 15px;
 }
 
-
-hr.style{
-
-  border-top: 3px double #F8981C;
-
-
+hr.style {
+    border-top: 3px double #F8981C;
 }
+
