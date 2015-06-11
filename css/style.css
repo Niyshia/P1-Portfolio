@@ -1,5 +1,5 @@
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     color: #747704;
     font-weight: 300;
 }
@@ -20,7 +20,7 @@ body {
     margin-top: 15px;
 }
 
-.style {
+.line-style {
     border-top: 3px double #f8981C;
 }
 

@@ -24,7 +24,7 @@
       <section>
         <header class="row">
           <div class="col-md-12">
-            <hr class="style">
+            <hr class="line-style">
           </div>
         </header>
       </section><!-- end section -->
@@ -48,19 +48,19 @@
             <p><a href="http://github.com">Link to project</a></p>
           </div><!-- end div -->
           <div class="col-md-4">
-            <img class="img-responsive" src="images/redflower.jpg" alt="Exotic Red Flower">
+            <img class="img-responsive" src="images/redflower.jpg" alt="Exotic Red Flower" data-toggle="modal" data-target="#modal2" alt="Exotic Flower">
             <h3 class="text-uppercase">Appify</h3>
             <p><a href="http://github.com">Link to project</a></p>
           </div><!-- end div -->
           <div class="col-md-4">
-            <img class="img-responsive" src="images/pearls.jpg" data-toggle="modal" data-target="#project1" alt="Pearls">
+            <img class="img-responsive" src="images/pearls.jpg" data-toggle="modal" data-target="#modal3" alt="Pearls">
             <h3 class="text-uppercase">Appify</h3>
             <p><a href="http://github.com">Link to project</a></p>
           </div><!-- end div -->
         </div><!-- end div -->
       </section><!-- end section -->
-    <!-- Modal -->
-    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <!-- Modal3 -->
+    <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
@@ -75,7 +75,24 @@
           </div><!-- end div -->
         </div><!-- end div -->
       </div><!-- end div -->
-    </div><!-- end Modal -->
+    </div><!-- end Modal3 -->
+    <!-- Modal2-->
+    <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Learning Front-End Web Design</h4>
+          </div><!-- end div -->
+          <div class="modal-body">
+            <img class="title-logo img-responsive" src="images/redflower.jpg" alt="Pearls" width=100 height= 100>
+            <p>This was my first project in this class. I learned a lot about HTML and CSS. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique, nibh et egestas consequat, metus justo vehicula risus, a sagittis nisi massa ac sapien. Proin et porttitor lacus, eu dignissim purus. Ut non porta dui. Maecenas id fermentum erat. Nunc ultricies aliquet est vitae fringilla. Nam ultrices est at diam porta rhoncus. Duis eu tortor erat. Morbi eleifend ligula ac ex auctor, vitae lobortis neque lacinia. Maecenas molestie consectetur purus, sit amet pulvinar massa. Aenean vel justo in nibh pulvinar hendrerit.</p>
+          </div><!-- end div -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div><!-- end div -->
+        </div><!-- end div -->
+      </div><!-- end div -->
+    </div><!-- end Modal2 -->
     </div>
   </body>
 </html>
